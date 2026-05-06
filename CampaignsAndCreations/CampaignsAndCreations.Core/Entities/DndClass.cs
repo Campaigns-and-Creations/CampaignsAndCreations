@@ -18,12 +18,12 @@ namespace Beyond_Sheet.Core.Entities
         public int ClassHp { get; set; }
 		public string Name { get; set; }
 		public string Description { get; set; }
-        public int StrengthModifier { get; set; }
-        public int DexterityModifier { get; set; }
-        public int ConstitutionModifier { get; set; }
-        public int IntelligenceModifier { get; set; }
-        public int WisdomModifier { get; set; }
-        public int CharismaModifier { get; set; }
+        public int StrengthStat { get; set; }
+        public int DexterityStat { get; set; }
+        public int ConstitutionStat { get; set; }
+        public int IntelligenceStat { get; set; }
+        public int WisdomStat { get; set; }
+        public int CharismaStat { get; set; }
 		public int HitPointDie {  get; set; }
 
         List<Spell> Spells { get; set; }
