@@ -49,9 +49,6 @@ namespace Beyond_Sheet.Core.Entities
 
         }
 
-        public abstract void CheckLevelUp()
-        {
-
-        }
+        public abstract void CheckLevelUp();
     }
 }

@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Beyond_Sheet.Core.Entities.Classes
 {
-    public class Pugilist: DndClass
+    public class Pugilist : DndClass
     {
-
+        public override void CheckLevelUp()
+        {
+        }
     }
 }
