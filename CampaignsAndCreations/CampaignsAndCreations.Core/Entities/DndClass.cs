@@ -1,4 +1,5 @@
 ﻿using CampaignsAndCreations.Core.Entities;
+using CampaignsAndCreations.Core.Entities.Enum;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -30,7 +31,7 @@ namespace Beyond_Sheet.Core.Entities
 		List<Attack> Attacks { get; set; }
 		List<Feat> Feat {  get; set; }
         List<Skill> Skills { get; set; }
-        List<WeaponProficiencie> WeaponProficiencies { get; set; }
+        List<WeaponType> WeaponProficiencies { get; set; }
         List<ToolProficiencie> ToolProficiencies { get; set; }
         List<ArmorProfciencie> ArmorProfciencies { get; set; }
 
