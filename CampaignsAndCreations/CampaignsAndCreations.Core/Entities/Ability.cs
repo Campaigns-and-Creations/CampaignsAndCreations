@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Beyond_Sheet.Core.Entities
 {
-    public class Ability
+    public abstract class Ability
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
