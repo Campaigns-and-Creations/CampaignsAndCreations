@@ -29,8 +29,7 @@ namespace Beyond_Sheet.Core.Entities
         List<Spell> Spells { get; set; }
 		List<Attack> Attacks { get; set; }
 		List<Feat> Feat {  get; set; }
-		List<SavingThrowProficiencie> SavingThrowProficiencies { get; set; }
-        List<SkillProficiencie> SkillProficiencies { get; set; }
+        List<Skill> Skills { get; set; }
         List<WeaponProficiencie> WeaponProficiencies { get; set; }
         List<ToolProficiencie> ToolProficiencies { get; set; }
         List<ArmorProfciencie> ArmorProfciencies { get; set; }
