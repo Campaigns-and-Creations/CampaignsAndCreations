@@ -32,7 +32,7 @@ namespace Beyond_Sheet.Core.Entities
 		List<Feat> Feat {  get; set; }
         List<Skill> Skills { get; set; }
         List<WeaponType> WeaponProficiencies { get; set; }
-        List<ToolProficiencie> ToolProficiencies { get; set; }
+        List<Tool> ToolProficiencies { get; set; }
         List<ArmorProfciencie> ArmorProfciencies { get; set; }
 
         public DndClass()
